@@ -5,8 +5,8 @@ const weatherContainer = document.getElementById('weather-container');
 const currentWeatherEl = document.getElementById('current-weather');
 const forecastContainerEl = document.getElementById('forecast-container');
 
-// --- API Details from WeatherAPI.com ---
-const API_KEY = 'b9a8a10528614e2da45214548251408'; // Your provided API key
+
+const API_KEY = 'b9a8a10528614e2da45214548251408';
 const API_URL = 'https://api.weatherapi.com/v1/forecast.json';
 
 // --- Event Listeners ---
@@ -102,4 +102,5 @@ function displayForecast(data) {
         `;
         forecastContainerEl.appendChild(forecastCard);
     }
+
 }
